@@ -49,4 +49,10 @@ class DefualtController extends Controller
         }
         return view('test_form');
     }
+
+    //U22用PHP↓
+    public function Home()
+    {
+        return view('home');
+    }
 }

@@ -49,4 +49,9 @@ class DefualtController extends Controller
         }
         return view('test_form');
     }
+
+    public function sample_oekaki()
+    {
+        return view('sample_oekaki_core');
+    }
 }

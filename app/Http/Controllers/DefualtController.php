@@ -55,6 +55,10 @@ class DefualtController extends Controller
     {
         return view('home');
     }
+    public function Oekaki()
+    {
+        return view('sample_oekaki_core');
+    }
     public function Memo(Request $request)
     {
         if ($request->getMethod() == "POST") {

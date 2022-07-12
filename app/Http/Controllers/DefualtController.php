@@ -55,4 +55,13 @@ class DefualtController extends Controller
     {
         return view('home');
     }
+    public function Memo(Request $request)
+    {
+        if ($request->getMethod() == "POST") {
+            $data = $request->all();
+
+           first_form::create($data);
+        }
+        return view('memo');
+    }
 }

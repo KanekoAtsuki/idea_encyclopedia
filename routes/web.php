@@ -28,5 +28,8 @@ Route::get('/test_form', [DefualtController::class, 'Test_Form']);
 Route::post('/register',[DefualtController::class, 'Test_Form']);
 
 /*ここからU22用*/
-
+//Home用
 Route::get('/home', [DefualtController::class, 'Home']);
+//memo用
+Route::get('/memo', [DefualtController::class, 'Memo']);
+Route::post('/register',[DefualtController::class, 'Memo']);

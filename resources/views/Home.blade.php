@@ -43,23 +43,23 @@
         <div class="col-xs-8 col-md-8 main-content">
             <div class="row">
                 <div class="col-md-3">
-                    <a class="card">
-                        <div class="card-header google">
-                            <i class="fa fa-google card-icon" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-content">
-                            <h2>Google Drive</h2>
-                            <p>Ihre Google Drive Dateien hier anzeigen.</p>
-                        </div>
+                        <a class="card" href="memo">
+                            <div class="card-header google">
+                                <i class="fa fa-file-text" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-content">
+                               <h2>メモフォーム</h2>
+                               <p>Sehen Sie sich hier Ihre Notizen an.</p>
+                         </div>
                     </a>
                 </div>
                 <div class="col-md-3">
                     <a class="card">
                         <div class="card-header icloud">
-                            <i class="fa fa-cloud card-icon" aria-hidden="true"></i>
+                            <i class="fa fa-paint-brush" aria-hidden="true"></i>
                         </div>
                         <div class="card-content">
-                            <h2>iCloud Drive</h2>
+                            <h2>お絵描きフォーム</h2>
                             <p>Ihre iCloud Drive Dateien hier anzeigen.</p>
                         </div>
                     </a>

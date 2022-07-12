@@ -24,7 +24,7 @@ Route::get('/Rensyuu2', [DefualtController::class, 'Rensyuu2']);
 Route::get('/test_table', [DefualtController::class, 'test_table']);
 Route::get('/test_coordinate', [DefualtController::class, 'Test_Coordinate']);
 Route::get('/test_form', [DefualtController::class, 'Test_Form']);
-
+Route::get('/oekaki',[DefualtController::class, 'sample_oekaki']);
 Route::post('/register',[DefualtController::class, 'Test_Form']);
 
 /*ここからU22用*/

@@ -1,0 +1,12 @@
+html {
+    overflow-y: scroll;
+    padding: 2em;
+}
+
+html {
+    background: #e3e3e3;
+}
+
+canvas {
+    border-radius: 5px;
+}

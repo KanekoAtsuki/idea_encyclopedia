@@ -27,3 +27,7 @@ Route::get('/test_form', [DefualtController::class, 'Test_Form']);
 Route::get('/oekaki',[DefualtController::class, 'sample_oekaki']);
 Route::post('/register',[DefualtController::class, 'Test_Form']);
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

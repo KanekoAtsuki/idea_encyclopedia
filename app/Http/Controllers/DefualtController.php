@@ -64,4 +64,10 @@ class DefualtController extends Controller
         }
         return view('memo');
     }
+
+    //デバッグ用
+    public function welcome()
+    {
+        return view('welcome');
+    }
 }

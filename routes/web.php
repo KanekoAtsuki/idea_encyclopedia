@@ -33,3 +33,9 @@ Route::get('/home', [DefualtController::class, 'Home']);
 //memo用
 Route::get('/memo', [DefualtController::class, 'Memo']);
 Route::post('/register',[DefualtController::class, 'Memo']);
+
+//↓これ消さないでおいて
+Auth::routes();
+Route::get('/welcome', [DefualtController::class, 'welcome']);
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

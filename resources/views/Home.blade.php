@@ -70,7 +70,7 @@
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a class="card">
+                        <a class="card" href="oekaki">
                             <div class="card-header icloud">
                                 <i class="fa fa-paint-brush" aria-hidden="true"></i>
                             </div>
